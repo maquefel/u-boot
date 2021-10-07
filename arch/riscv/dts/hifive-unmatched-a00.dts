@@ -76,6 +76,11 @@
 		interrupts = <1 IRQ_TYPE_LEVEL_LOW>;
 		interrupt-controller;
 
+		da9063-reset {
+			compatible = "da9063-reset";
+			priority = <1>;
+		};
+
 		regulators {
 			vdd_bcore1: bcore1 {
 				regulator-min-microvolt = <1050000>;
