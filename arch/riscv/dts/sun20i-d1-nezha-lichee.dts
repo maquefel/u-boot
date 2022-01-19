@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: (GPL-2.0+ or MIT)
+// Copyright (C) 2021 Samuel Holland <samuel@sholland.org>
+
+/dts-v1/;
+
+#include "sun20i-d1-nezha.dts"
+
+&emac {
+	status = "disable";
+};
+
+&spi0 {
+	/delete-node/ flash@0;
+};

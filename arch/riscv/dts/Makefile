@@ -8,6 +8,7 @@ dtb-$(CONFIG_TARGET_SIFIVE_UNLEASHED) += hifive-unleashed-a00.dtb
 dtb-$(CONFIG_TARGET_SIFIVE_UNMATCHED) += hifive-unmatched-a00.dtb
 dtb-$(CONFIG_TARGET_SIPEED_MAIX) += k210-maix-bit.dtb
 dtb-$(CONFIG_TARGET_SUNXI) += sun20i-d1-nezha.dtb
+dtb-$(CONFIG_TARGET_SUNXI) += sun20i-d1-nezha-lichee.dtb
 
 targets += $(dtb-y)
 
